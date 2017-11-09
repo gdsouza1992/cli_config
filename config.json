@@ -1,0 +1,49 @@
+{
+    "serverConfig": {
+        "db": {
+            "host": "",
+            "port": "",
+            "user": "",
+            "password": "",
+            "database": ""
+        },
+        "redis": {
+            "host": "",
+            "port": "",
+            "password": ""
+        },
+        "s3": {
+            "images": {
+                "bucket": "",
+                "host": ""
+            },
+            "files": {
+                "bucketURL": "",
+                "bucketName": "",
+                "host": ""
+            }
+        },
+        "aws": {
+            "accessKeyId": "",
+            "secretAccessKey": ""
+        },
+        "embed": {
+            "embedly": {
+                "url": "",
+                "key": ""
+            },
+            "blackList": []
+        }
+    },
+    "clientConfig": {
+        "appName": "",
+        "hasGroupChat": true,
+        "authConfig": {
+            "signinRoute": "",
+            "signoutRoute": ""
+        },
+        "routeConfig": {
+            "base": ""
+        }
+    }
+}
