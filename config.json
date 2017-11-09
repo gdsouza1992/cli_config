@@ -33,10 +33,23 @@
                 "key": ""
             },
             "blackList": []
-        }
+        },
+        "hachat_allowed_image_mimetypes": [
+            "image/png",
+            "image/jpeg",
+            "image/jpg",
+            "image/gif",
+            "image/tiff"
+        ],
+        "allowed_image_mimetypes": [
+            "image/png",
+            "image/jpeg",
+            "image/jpg",
+            "image/tiff"
+        ],
+        "uploadImageSize": 5242880
     },
     "clientConfig": {
-        "appName": "",
         "hasGroupChat": true,
         "authConfig": {
             "signinRoute": "",

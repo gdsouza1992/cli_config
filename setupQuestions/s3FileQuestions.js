@@ -12,7 +12,7 @@ const s3FileQuestions = [
     {
         type: 'input',
         name: 'host',
-        message: 'Enter s3 files bucket host:'
+        message: 'Enter s3 files bucket host URL:'
     }
 ];
 

@@ -1,0 +1,62 @@
+{
+    "serverConfig": {
+        "db": {
+            "host": "",
+            "port": "",
+            "user": "",
+            "password": "",
+            "database": ""
+        },
+        "redis": {
+            "host": "",
+            "port": "",
+            "password": ""
+        },
+        "s3": {
+            "images": {
+                "bucket": "",
+                "host": ""
+            },
+            "files": {
+                "bucketURL": "",
+                "bucketName": "",
+                "host": ""
+            }
+        },
+        "aws": {
+            "accessKeyId": "",
+            "secretAccessKey": ""
+        },
+        "embed": {
+            "embedly": {
+                "url": "",
+                "key": ""
+            },
+            "blackList": []
+        },
+        "hachat_allowed_image_mimetypes": [
+            "image/png",
+            "image/jpeg",
+            "image/jpg",
+            "image/gif",
+            "image/tiff"
+        ],
+        "allowed_image_mimetypes": [
+            "image/png",
+            "image/jpeg",
+            "image/jpg",
+            "image/tiff"
+        ],
+        "uploadImageSize": 5242880
+    },
+    "clientConfig": {
+        "hasGroupChat": true,
+        "authConfig": {
+            "signinRoute": "",
+            "signoutRoute": ""
+        },
+        "routeConfig": {
+            "base": ""
+        }
+    }
+}
